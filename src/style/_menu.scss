@@ -1,0 +1,181 @@
+//Bootstrap SCSS for MENU BUtton
+.navbar-brand {
+  color: #fff !important;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.navbar-nav .nav-link {
+  color: set-text-color($primary-color) !important;
+}
+
+//BootStrap Menu BUtton
+
+.navbar-light .navbar-toggler {
+  color: rgb(35, 32, 32);
+  border-color: #fff !important;
+  background-color: #fff !important;
+}
+
+//MENU MOck Buttn LInes;
+.Spin {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  @include easeOut;
+  //button Line
+}
+
+.Spin:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: set-text-color($primary-color);
+  @include easeOut;
+}
+
+.menu {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  opacity: 0.9;
+
+  &-branding,
+  &-nav {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  &-nav {
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 50%;
+    opacity: 0.9;
+    background: #030303ef;
+
+    animation-name: slideIn;
+    animation-duration: 1000ms;
+
+    // Translate3D effect
+    @keyframes slideIn {
+      from {
+        transform: translate3d(0, -100%, 0);
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+  &-branding {
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 50%;
+    opacity: 0.9;
+    background: #030303ef;
+
+    animation-name: slideUp;
+    animation-duration: 1000ms;
+
+    // Translate3D effect
+    @keyframes slideUp {
+      from {
+        transform: translate3d(0, 100%, 0);
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+  // Potrait
+  .portrait {
+    width: 250px;
+    height: 250px;
+
+    background: #0504019a;
+    border-radius: 50%;
+    border: solid 1px #f6cb07;
+  }
+}
+.navbar-nav .nav-link {
+  animation-name: slideRight;
+  animation-duration: 2s;
+  @include easeOut;
+  // Slide from Right
+
+  @keyframes slideRight {
+    from {
+      transform: translate3d(1000px, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+//text and Fonts
+a.nav-link {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  @include easeOut;
+
+  &:hover {
+    color: $secondary-color !important;
+  }
+  &.current {
+    color: $secondary-color !important;
+  }
+}
+//MEdia Query Mixins
+
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXL {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}

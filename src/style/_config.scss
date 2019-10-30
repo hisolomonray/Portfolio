@@ -1,0 +1,21 @@
+// $primary-color: #fff;
+$primary-color: rgb(3, 16, 39);
+$secondary-color: #eece1a;
+$show-home-image: true;
+// $home-image: url(../images/three.jpg);
+$background-opacity: 0.9;
+
+@mixin easeOut {
+  transition: all 0.5s ease-out//;
+}
+
+//this Function Changes Backgroud color paralell with the background!
+//Set TEst Color
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

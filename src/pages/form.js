@@ -30,9 +30,7 @@ export default class Example extends React.Component {
           </FormGroup>
         </Form>
         <div className="btn">
-          <div ClassName="field">
-            <div data-netlify-recaptcha="true"></div>
-          </div>
+          <div ClassName="field"></div>
           <Button>Submit</Button>
         </div>
       </div>

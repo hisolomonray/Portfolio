@@ -12,13 +12,7 @@ export default class Example extends React.Component {
           data-netlify-honeypot="bot-field"
         >
           <FormGroup>
-            <Input
-              type="hidden"
-              name="form-name"
-              name="name"
-              id="name"
-              placeholder="Name"
-            />
+            <Input type="name" name="name" id="name" placeholder="Name" />
           </FormGroup>
           <FormGroup>
             <Label for="email"></Label>
@@ -34,10 +28,11 @@ export default class Example extends React.Component {
               placeholder="Message "
             />
           </FormGroup>
-          <div ClassName="field">
-            <div data-netlify-recaptcha="true"></div>
-          </div>
+
           <div className="btn">
+            <div ClassName="field">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
             <Button>Submit</Button>
           </div>
         </Form>

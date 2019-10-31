@@ -10,7 +10,7 @@ function form() {
         data-netlify-honeypot="bot-field"
       >
         {/* You still need to add the hidden input with the form name to your JSX form */}
-        <input type="hidden" name="form-name" value="contact" />>
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
             Your Name: <input type="text" name="name" />

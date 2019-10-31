@@ -5,7 +5,11 @@ export default class Example extends React.Component {
   render() {
     return (
       <div id="form">
-        <Form action="POST" data-netlify="true">
+        <Form
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <FormGroup>
             <Input type="name" name="name" id="name" placeholder="Name" />
           </FormGroup>

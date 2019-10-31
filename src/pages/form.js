@@ -6,12 +6,19 @@ export default class Example extends React.Component {
     return (
       <div id="form">
         <Form
+          name="contact"
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
           <FormGroup>
-            <Input type="name" name="name" id="name" placeholder="Name" />
+            <Input
+              type="hidden"
+              name="form-name"
+              name="name"
+              id="name"
+              placeholder="Name"
+            />
           </FormGroup>
           <FormGroup>
             <Label for="email"></Label>
@@ -19,11 +26,11 @@ export default class Example extends React.Component {
           </FormGroup>
 
           <FormGroup>
-            <Label for="message"></Label>
+            <Label for="text"></Label>
             <Input
               type="textarea"
               name="text"
-              id="message"
+              id="text"
               placeholder="Message "
             />
           </FormGroup>

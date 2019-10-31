@@ -7,7 +7,7 @@ export default class Example extends React.Component {
       <div id="form">
         <Form
           name="contact"
-          method="POST"
+          method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
@@ -28,14 +28,13 @@ export default class Example extends React.Component {
               placeholder="Message "
             />
           </FormGroup>
-
-          <div className="btn">
-            <div ClassName="field">
-              <div data-netlify-recaptcha="true"></div>
-            </div>
-            <Button>Submit</Button>
-          </div>
         </Form>
+        <div className="btn">
+          <div ClassName="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <Button>Submit</Button>
+        </div>
       </div>
     )
   }

@@ -162,11 +162,31 @@
   }
 
   ///Pending
-  #cover {
-    height: 100%;
-    position: auto;
-    background: #000 !important;
-    padding: 40px;
-    position: auto;
+}
+
+@include mediaxSm {
+  main {
+    font-size: 15px;
+    text-align: left !important;
+    top: 0;
+    line-height: 0;
+    padding: 10px;
+
+    .lg-heading {
+      line-height: 0.8;
+      margin-bottom: 0;
+      text-align: left;
+    }
+
+    .icons {
+      width: 20%;
+      z-index: 1;
+      cursor: pointer;
+      text-align: center !important;
+    }
+    .lg-heading {
+      color: rgb(255, 255, 255);
+      font-size: 8px !important;
+    }
   }
 }

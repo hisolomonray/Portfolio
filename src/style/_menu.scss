@@ -157,7 +157,7 @@ a.nav-link {
 //MEdia Query Mixins
 
 @mixin mediaxSm {
-  @media screen and (max-width: 280px) {
+  @media screen and (max-width: 283px) {
     @content;
   }
 }

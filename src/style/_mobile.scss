@@ -170,6 +170,14 @@
   }
   .cover1 {
     padding: 0rem;
-    height: 180vh;
+    height: 190vh;
+  }
+}
+@include mediaXtreme {
+  .cover1 {
+    position: fixed;
+    padding: 0rem;
+    height: 190vh;
+    background: rgb(0, 0, 0);
   }
 }

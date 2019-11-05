@@ -17,7 +17,7 @@ function form() {
           </label>
         </p>
         <p>
-          <textarea type="message" name="text" placeholder="Message"></textarea>
+          <textarea type="text" name="text" placeholder="Message"></textarea>
         </p>
 
         <div data-netlify-recaptcha="true"></div>

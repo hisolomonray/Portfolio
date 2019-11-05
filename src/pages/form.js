@@ -13,14 +13,18 @@ function form() {
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
-            Your Name: <input type="text" name="name" />
+            <input type="text" name="name" placeholder="Name" />
           </label>
         </p>
         <p>
           <label>
-            Your Email: <input type="email" name="email" />
+            <input type="email" name="email" placeholder="Email" />
           </label>
         </p>
+        <p>
+          <textarea type="message" name="text" placeholder="Message"></textarea>
+        </p>
+        <p></p>
         <p>
           <button type="submit">Send</button>
         </p>

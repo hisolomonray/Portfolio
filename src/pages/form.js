@@ -4,6 +4,7 @@ function form() {
   return (
     <div>
       <form
+        data-netlify-recaptcha="true"
         action="/thank/"
         name="contact"
         method="POST"

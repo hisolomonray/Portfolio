@@ -1,16 +1,19 @@
 import React from "react"
-import { Link } from "gatsby"
-function thank() {
+import { Jumbotron, Container } from "reactstrap"
+import Menu from "../components/toggle"
+
+const Example = props => {
   return (
     <div>
-      <h1> Your Messege is Sent!</h1>
-      <h2> Well get back to You as soon as Possible!</h2>
-
-      <div>
-        <Link to="/">Back</Link>
-      </div>
+      <Menu />
+      <Jumbotron fluid>
+        <Container fluid>
+          <h1 className="display-3"> Thank You!</h1>
+          <p className="lead">You'r Message is Sent!</p>
+        </Container>
+      </Jumbotron>
     </div>
   )
 }
 
-export default thank
+export default Example

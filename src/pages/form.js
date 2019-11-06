@@ -6,7 +6,7 @@ function form() {
       <form
         action="/thank/"
         name="contact"
-        method="post"
+        method="POST"
         data-netlify="true"
         data-netlify-recaptcha="true"
         data-netlify-honeypot="bot-field"
@@ -26,7 +26,7 @@ function form() {
         <p>
           <textarea type="text" name="text" placeholder="Message"></textarea>
         </p>
-        <div data-netlify-recaptcha="true"></div>
+        <div data-netlify-recaptcha="true"> here is Recapthca</div>
         <p>
           <button type="submit">Send</button>
         </p>

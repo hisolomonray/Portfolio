@@ -7,6 +7,7 @@ function form() {
         action="/thank/"
         name="contact"
         method="POST"
+        data-netlify-recaptcha="true"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >

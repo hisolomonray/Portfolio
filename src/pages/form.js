@@ -33,7 +33,7 @@ function form() {
           <MdKeyboardHide size="2rem" />
           <textarea type="text" name="text" placeholder="Message"></textarea>
         </p>
-        <div data-netlify-recaptcha="true"></div>
+
         <p>
           <button type="submit">Send</button>
         </p>

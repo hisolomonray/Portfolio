@@ -3,13 +3,7 @@ import { MdPerson, MdEmail, MdKeyboardHide } from "react-icons/md"
 function form() {
   return (
     <div>
-      <form
-        action="/thank/"
-        name="contact"
-        method="POST"
-        data-netlify-recaptcha="true"
-        data-netlify="true"
-      >
+      <form action="/thank/" name="contact" method="POST" data-netlify="true">
         {/* You still need to add the hidden input with the form name to your JSX form */}
 
         <p>

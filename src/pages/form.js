@@ -7,15 +7,12 @@ function form() {
         action="/thank/"
         name="contact"
         method="POST"
+        data-netlify-recaptcha="true"
         netlify-honeypot="bot-field"
         data-netlify="true"
       >
         {/* You still need to add the hidden input with the form name to your JSX form */}
-        <p class="hidden">
-          <label>
-            Don’t fill this out if you're human: <input name="bot-field" />
-          </label>
-        </p>
+
         <p>
           <label>
             <MdPerson size="2rem" />{" "}
@@ -33,7 +30,7 @@ function form() {
           <MdKeyboardHide size="2rem" />
           <textarea type="text" name="text" placeholder="Message"></textarea>
         </p>
-
+        <div data-netlify-recaptcha="true"></div>
         <p>
           <button type="submit">Send</button>
         </p>

@@ -1,4 +1,6 @@
 import React from "react"
+import { FaEye } from "react-icons/fa"
+import { MdPerson } from "react-icons/md"
 import { Jumbotron, Container } from "reactstrap"
 import Menu from "../components/toggle"
 

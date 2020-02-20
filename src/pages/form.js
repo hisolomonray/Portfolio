@@ -12,7 +12,11 @@ function form() {
         data-netlify="true"
       >
         {/* You still need to add the hidden input with the form name to your JSX form */}
-
+        <p class="hidden">
+          <label>
+            Don’t fill this out if you're human: <input name="bot-field" />
+          </label>
+        </p>
         <p>
           <label>
             <MdPerson size="2rem" />{" "}

@@ -21,26 +21,25 @@ function about() {
 
           <div className="bio">
             <h3 className="text-secondary">BIO</h3>
-            <p>
-              Solomon, also called Jedidiah, was, according to the Hebrew Bible,
-              Old Testament, Quran, and Hadiths, a fabulously wealthy and wise
-              king of the United Kingdom of Israel who succeeded his father,
-              King DavidSolomon, also called Jedidiah, was, according to the
-              Hebrew Bible, Old Testament, Quran, and Hadiths, a fabulously
-              wealthy and wise king of the United Kingdom of Israel who
-              succeeded his father, King David{" "}
-            </p>
+            <p></p>
           </div>
           <div className="job job-1">
             <h3> 123 Web Shop</h3>
             <h6>Full Stact Developer</h6>
             <p>
-              {" "}
-              Solomon, also called Jedidiah, was, according to the Hebrew Bible,
-              Old Testament, Quran, and Hadiths, a fabulously wealthy and wise
-              king of the United Kingdom of Israel who succeeded his father,
-              King DavidSolomon, also called Jedidiah, was, according to the
-              Hebrew
+              The Skinny: I'm Wes Bos, a full stack web developer and designer
+              from Hamilton, Canada. I love to share what I know through my
+              training products, teaching and speaking at conferences. I've been
+              creating on the web for around 9 years and have become pretty good
+              at it. I hang out on Twitter and would love to meet you! A little
+              more… I’m super passionate about design, development, and
+              business. I’ve been very fortunate to be able to do all three as a
+              career. From a technical standpoint, I spend most of my time
+              working with JavaScript, CSS3, HTML5. New and open source web
+              technologies make me super excited and I can’t wait to see what is
+              to come of the web in the next few years. If you came here to find
+              out what theme, app or desk chair that I use, check out my uses
+              page.
             </p>
           </div>
           <div className="job job-2">

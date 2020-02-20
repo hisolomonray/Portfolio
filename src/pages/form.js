@@ -3,7 +3,7 @@ import { MdPerson, MdEmail, MdKeyboardHide } from "react-icons/md"
 function form() {
   return (
     <div>
-      <h1>Contact </h1>
+      <h1>hisolomonray@gmail.com</h1>
     </div>
   )
 }

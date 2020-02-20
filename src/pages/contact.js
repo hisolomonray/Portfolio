@@ -9,10 +9,10 @@ function contact() {
       <Menu />
       <div id="contact">
         <h1 className="lg-heading">
-          Contact
+          Email
           <span className="text-secondary"> Me </span>
         </h1>
-        <h2 calssName="sm-heading"> We can Connect Via </h2>
+        <h2 calssName="sm-heading">  </h2>
 
         <Form />
 

@@ -24,15 +24,15 @@ function about() {
             <p></p>
           </div>
           <div className="job job-1">
-            <h3> 123 Web Shop</h3>
-            <h6>Full Stact Developer</h6>
-            <p>
+            <h1> Full Stact Developer</h1>
+            <h6>
               I'm Solomon Ray, a full stack web developer and designer .I live
-              in San Luis Obispo moved from India. I
-            </p>
+              in San Luis Obispo moved from India.
+            </h6>
+            <p></p>
           </div>
           <div className="job job-2">
-            <h3> Front End Developer</h3>
+            <h1> Front End Developer</h1>
             <h6> HTML,CSS,React,Gatsby,Bootstrap</h6>
             <p></p>
           </div>

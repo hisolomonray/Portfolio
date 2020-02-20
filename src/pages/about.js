@@ -27,44 +27,19 @@ function about() {
             <h3> 123 Web Shop</h3>
             <h6>Full Stact Developer</h6>
             <p>
-              The Skinny: I'm Wes Bos, a full stack web developer and designer
-              from Hamilton, Canada. I love to share what I know through my
-              training products, teaching and speaking at conferences. I've been
-              creating on the web for around 9 years and have become pretty good
-              at it. I hang out on Twitter and would love to meet you! A little
-              more… I’m super passionate about design, development, and
-              business. I’ve been very fortunate to be able to do all three as a
-              career. From a technical standpoint, I spend most of my time
-              working with JavaScript, CSS3, HTML5. New and open source web
-              technologies make me super excited and I can’t wait to see what is
-              to come of the web in the next few years. If you came here to find
-              out what theme, app or desk chair that I use, check out my uses
-              page.
+              I'm Solomon Ray, a full stack web developer and designer .I live
+              in San Luis Obispo moved from India. I
             </p>
           </div>
           <div className="job job-2">
-            <h3> Designsers ABC</h3>
-            <h6>Front End Developer</h6>
-            <p>
-              {" "}
-              Solomon, also called Jedidiah, was, according to the Hebrew Bible,
-              Old Testament, Quran, and Hadiths, a fabulously wealthy and wise
-              king of the United Kingdom of Israel who succeeded his father,
-              King DavidSolomon, also called Jedidiah, was, according to the
-              Hebrew
-            </p>
+            <h3> Front End Developer</h3>
+            <h6> HTML,CSS,React,Gatsby,Bootstrap</h6>
+            <p></p>
           </div>
           <div className="job job-3">
-            <h3> Web Works</h3>
-            <h6>Graphic Designer</h6>
-            <p>
-              {" "}
-              Solomon, also called Jedidiah, was, according to the Hebrew Bible,
-              Old Testament, Quran, and Hadiths, a fabulously wealthy and wise
-              king of the United Kingdom of Israel who succeeded his father,
-              King DavidSolomon, also called Jedidiah, was, according to the
-              Hebrew
-            </p>
+            <h3> Backend developer</h3>
+            <h6>Node.js,Express,Graphql,MongoDB,</h6>
+            <p></p>
           </div>
         </div>
       </div>
